@@ -1,0 +1,55 @@
+.wether{
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.wether>input{
+    padding: 20px;
+    opacity: 90%;
+    background-color: black;
+    color: white;
+    border-color: red;
+    border-radius: 50px;
+    width: 250px;
+    box-shadow: 30px 30px 50px black;
+    outline-color: red;
+}
+
+.wether>button{
+   padding: 10px;
+   margin: 10px;
+}
+
+.container-holder{
+    display: flex;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: rgb(221, 102, 102);
+    border-radius: 30px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.container h3,p{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+.container-items>img{
+   margin-bottom: 4px;
+   padding: 5px;
+   width: 50px;
+   background-color: rgb(96, 96, 133);
+   border-radius: 10px;
+}

@@ -1,55 +1,92 @@
 .wether{
     align-items: center;
-    text-align: center;
-    padding: 100px;
-    background-color: orange;
     display: flex;
     flex-direction: column;
-    height: 100%;
+}
+.reload{
+    text-align: center;
+    height: 20px;
+    width: 90%;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.reload>img{
+    width: 20px;
+    height: 20px;
+    box-shadow: 0px 0px 30px black;
 }
 
-.wether>input{
-    padding: 20px;
-    opacity: 90%;
-    background-color: black;
-    color: white;
-    border-color: red;
-    border-radius: 50px;
-    width: 250px;
-    box-shadow: 30px 30px 50px black;
-    outline-color: red;
-}
-
-.wether>button{
-   padding: 10px;
-   margin: 10px;
-}
-
-.container-holder{
+.full-container{
     display: flex;
-    
+    justify-content: space-evenly;
+    background-color: rgba(61, 48, 12, 0.589);
+    border-radius: 15px;
+    margin-top: 0px;
+    width: 90%;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 15px 1px black;
 }
 
 .container{
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    background-color: rgb(221, 102, 102);
-    border-radius: 30px;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-}
-.container h3,p{
-    padding: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 50px;
+    width: auto;
+    border-radius: 5px;
 }
 
-.container-items>img{
-   margin-bottom: 4px;
-   padding: 5px;
-   width: 50px;
-   background-color: rgb(96, 96, 133);
-   border-radius: 10px;
+.container h1{
+    font-family: monospace;
+    padding-left: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 40px;
+    font-size: 60px;
+}
+
+#count{
+    padding-left: 200px;
+}
+
+.container img{
+    width: 200px;
+    bottom: 20px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.temp{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(255, 255, 255)
+}
+.weath{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.wind-info{
+    display: flex;
+    text-align: center;
+    padding-left: 50px;
+    
+}
+.wind-info>div{
+    margin-left: 40px;
+}
+.wind-info>div>img{
+    width: 60px;
+}
+.windy{
+    padding: 5px;
+    color: rgb(92, 92, 187);
+}
+
+.humi{
+    color: aqua;
 }
